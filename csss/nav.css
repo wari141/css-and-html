@@ -1,6 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Cabin+Sketch:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: "Big Shoulders Stencil", sans-serif;
+}
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .nav_items{
     display: flex;
     list-style-type: none;
